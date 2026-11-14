@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DuckSpace | Web Development</title>
+    <meta name="description" content="DuckSpace creates modern, responsive websites for businesses and brands.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            Duck<span>Space.</span>
+        </a>
+
+        <nav>
+            <a href="#home" data-i18n="navHome">Home</a>
+            <a href="#about" data-i18n="navAbout">About</a>
+            <a href="#services" data-i18n="navServices">Services</a>
+            <a href="#projects" data-i18n="navProjects">Projects</a>
+            <a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+
+        <button class="language-btn" id="languageBtn">
+            FR
+        </button>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="status">
+                <span class="status-dot"></span>
+                <span data-i18n="available">Available for projects</span>
+            </div>
+
+            <p class="eyebrow" data-i18n="heroEyebrow">
+                WEB DESIGN & DEVELOPMENT
+            </p>
+
+            <h1>
+                <span data-i18n="heroTitle">Building digital</span>
+                <span class="green" data-i18n="heroTitleGreen">experiences.</span>
+            </h1>
+
+            <p class="hero-description" data-i18n="heroDescription">
+                I create modern, clean and responsive websites
+                that help businesses grow online.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary" data-i18n="viewWork">
+                    View my work →
+                </a>
+
+                <a href="#contact" class="btn-secondary" data-i18n="contactMe">
+                    Contact me
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-decoration">
+            <div class="decoration-circle"></div>
+            <div class="decoration-text">DS</div>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+
+        <p class="section-label">01 / ABOUT</p>
+
+        <h2 data-i18n="aboutTitle">
+            More than just a website.
+        </h2>
+
+        <p class="section-description" data-i18n="aboutDescription">
+            I'm a passionate web developer focused on creating
+            beautiful digital experiences. My goal is to help
+            businesses establish a strong online presence.
+        </p>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+
+        <p class="section-label">02 / SERVICES</p>
+
+        <h2 data-i18n="servicesTitle">What I can do.</h2>
+
+        <div class="cards">
+
+            <article class="card">
+                <div class="card-number">01</div>
+                <h3 data-i18n="service1Title">Web Design</h3>
+                <p data-i18n="service1Description">
+                    Modern and attractive website layouts.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="card-number">02</div>
+                <h3 data-i18n="service2Title">Web Development</h3>
+                <p data-i18n="service2Description">
+                    Responsive websites built with HTML and CSS.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="card-number">03</div>
+                <h3 data-i18n="service3Title">Responsive Design</h3>
+                <p data-i18n="service3Description">
+                    Websites that work on phones, tablets and computers.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+
+        <p class="section-label">03 / PORTFOLIO</p>
+
+        <h2 data-i18n="projectsTitle">Selected projects.</h2>
+
+        <div class="cards">
+
+            <article class="project-card">
+                <div class="project-visual restaurant">
+                    <span>RESTO.</span>
+                </div>
+                <div class="project-info">
+                    <h3 data-i18n="project1Title">Restaurant Website</h3>
+                    <p data-i18n="project1Description">
+                        A modern restaurant presentation website.
+                    </p>
+                    <span class="tag">HTML / CSS</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-visual gym">
+                    <span>FITZONE.</span>
+                </div>
+                <div class="project-info">
+                    <h3 data-i18n="project2Title">Gym Website</h3>
+                    <p data-i18n="project2Description">
+                        A powerful landing page for a fitness club.
+                    </p>
+                    <span class="tag">HTML / CSS</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-visual fashion">
+                    <span>STUDIO.</span>
+                </div>
+                <div class="project-info">
+                    <h3 data-i18n="project3Title">Fashion Store</h3>
+                    <p data-i18n="project3Description">
+                        A clean presentation for a clothing brand.
+                    </p>
+                    <span class="tag">HTML / CSS</span>
+                </div>
+            </article>
+
+        </div>
+
+        <p class="demo-note" data-i18n="demoNote">
+            These are demonstration concepts created for my portfolio.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+
+        <p class="section-label">04 / CONTACT</p>
+
+        <h2 data-i18n="contactTitle">
+            Have a project in mind?
+        </h2>
+
+        <p class="section-description" data-i18n="contactDescription">
+            Let's work together and build something great.
+        </p>
+
+        <a href="mailto:YOUR_EMAIL@example.com"
+           class="btn-primary">
+            <span data-i18n="emailMe">Email me →</span>
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="logo">Duck<span>Space.</span></a>
+
+        <p>© 2026 DuckSpace. <span data-i18n="rights">All rights reserved.</span></p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
